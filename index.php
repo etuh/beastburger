@@ -1,15 +1,15 @@
 <?php 
 session_start();
 
-if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
+// if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
 
-	// session_start();
-	// if(!empty($_SESSION["userId"])) {
-	//     require_once './view/dashboard.php';
-	// } else {
-	//     require_once './accounts/login-form.php';
-	// }
+// 	// session_start();
+// 	// if(!empty($_SESSION["userId"])) {
+// 	//     require_once './view/dashboard.php';
+// 	// } else {
+// 	//     require_once './accounts/login-form.php';
+// 	// }
 
  ?>
 
@@ -354,8 +354,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 </html>
 
 <?php 
-}else{
-     header("Location: accounts/login.php");
-     exit();
-}
+// }else{
+//      header("Location: accounts/login.php");
+//      exit();
+// }
  ?>
